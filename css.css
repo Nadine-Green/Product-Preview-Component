@@ -34,6 +34,12 @@ article{
     border-radius:10px;
     overflow:hidden;
     max-width:550px;
+    animation: rotate 1s linear 2;
+}
+
+@keyframes rotate{
+    from{transfrom:rotateY(0deg);}
+    to{transform:rotateY(360deg);}
 }
 
 picture img{
